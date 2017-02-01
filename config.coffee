@@ -6,7 +6,7 @@ module.exports =
   ############################
 
   # Server listen port
-  serverPort: 80
+  serverPort: 1936
 
   # RTMP server listen port
   rtmpServerPort: 1935
@@ -31,13 +31,13 @@ module.exports =
   enableRTSP: true
 
   # Enable RTMP/RTMPE server (not including RTMPT)
-  enableRTMP: true
+  enableRTMP: false
 
   # Enable RTMPT/RTMPTE server
-  enableRTMPT: true
+  enableRTMPT: false
 
   # Enable HTTP server
-  enableHTTP: true
+  enableHTTP: false
 
   # Enable custom protocol receiver
   enableCustomReceiver: true
