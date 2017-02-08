@@ -32,3 +32,5 @@ process.on 'uncaughtException', (err) ->
   throw err
 
 streamServer.start()
+
+module.exports = streamServer
